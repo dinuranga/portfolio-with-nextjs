@@ -10,7 +10,7 @@ function Home() {
   const closeNav = () => setNav(false);
 
   return (
-    <div>
+    <div className=''>
         {/* Navbar */}
         <NavbarMobile nav={nav} closeNav={closeNav}/>
         <Navbar openNav={openNav}/>

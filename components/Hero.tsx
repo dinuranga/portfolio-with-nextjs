@@ -5,7 +5,7 @@ import HoverGlowButton from './HoverGlowButton'
 
 const Hero = () => {
   return (
-    <div className='min-h-[88vh] h-[600px] z-[100]'>
+    <div className='min-h-[88vh] h-[600px] z-[1000] mt-[12vh]'>
       <Particle/>
       <div className="w-[80%] grid grid-cols-1 mx-auto lg:grid-cols-2 gap-[3rem] h-[100%] items-end relative z-[10000]">
         <div className="flex flex-col items-center lg:items-start justify-center h-[100%] lg:justify-center gap-6">

@@ -4,7 +4,7 @@ const TextEffect = () => {
   return (
     <TypeAnimation
       sequence={[
-        'Software Engineer',
+        'Software Engineer (Intern)',
         1000,
         'Full-stack Developer',
         1000

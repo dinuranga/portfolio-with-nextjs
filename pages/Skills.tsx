@@ -16,7 +16,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className='bg-slate-950 pt-[4rem] md:pt-[6rem] pb-[4rem] md:pb-[8rem]'>
+    <div className='bg-slate-950 pt-[4rem] md:pt-[6rem] pb-[5rem] md:pb-[8rem]'>
       <p className="heading">
         MY <span className='text-highlight'>Skills</span>
       </p>

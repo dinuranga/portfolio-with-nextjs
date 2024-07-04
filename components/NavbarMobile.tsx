@@ -32,4 +32,4 @@ const NavbarMobile = ({nav,closeNav}: Props) => {
     )
 }
 
-export default NavbarMobile
+export default NavbarMobile;

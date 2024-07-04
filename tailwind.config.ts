@@ -22,6 +22,9 @@ module.exports = {
         primary: ["Poppins"],
         secondary: ["Quicksand"],
       },
+      boxShadow:{
+        'glow':"0px 0px 30px rgba(255,255,255,0)"
+      }
     },
   },
   plugins: [],

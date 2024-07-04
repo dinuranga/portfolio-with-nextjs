@@ -1,6 +1,7 @@
 import { Bars3Icon } from '@heroicons/react/16/solid';
 import React, {useState, useEffect} from 'react';
 import Logo from './Logo';
+import Link from 'next/link';
 
 interface Props {
     openNav: () => void;
@@ -42,9 +43,11 @@ const Navbar = ({openNav}: Props) => {
 
   return (
     <nav className={`w-[100%] fixed z-[100000] min-h-[12vh] top-0 pb-3 flex items-end h-[50px] transition-all duration-300 ease-in-out bg-slate-950 ${scrollNav ? 'pb-6 bg-opacity-60 backdrop-blur-lg backdrop-brightness-100' : 'bg-opacity-0 backdrop-blur-none'}`}>
-      <div className='flex items-end justify-between mx-auto w-[80%] h-[100%] cursor-pointer'>
+      <div className='flex items-end justify-between mx-auto w-[80%] h-[100%]'>
         <div className='pl-4'>
-          <Logo/>
+          <Link href="/">
+            <Logo/>
+          </Link>
         </div>
         <div className='flex gap-8'>
           {
@@ -70,4 +73,4 @@ const Navbar = ({openNav}: Props) => {
   )
 }
 
-export default Navbar
+export default Navbar;

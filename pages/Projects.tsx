@@ -37,7 +37,7 @@ const Projects = () => {
             {   
                 
                 projects.map((data, index) => (
-                    <Link href={data.demoUrl} target='_blank'>
+                    <Link href={data.demoUrl} target='_blank' key={index}>
                         <div className='cursor-pointor'>
                             <ProjectCard imageUrl={data.imageUrl} title={data.title} description={data.description}/>
                         </div>

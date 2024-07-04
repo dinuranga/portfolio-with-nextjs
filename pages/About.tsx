@@ -15,11 +15,11 @@ function About() {
         <div>
           <h1 className='text-[20px] font-bold uppercase text-highlight md-[1rem] mb-[1rem]'>About Me</h1>
           <h2 className="text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[1rem] font-bold text-white">{data.heading}</h2>
-          <div className='w-[6rem] h-[0.5rem] mb-[2rem] bg-slate-800'></div>
+          <div className='w-[6rem] rounded-sm h-[0.5rem] mb-[2rem] bg-slate-800'></div>
           <p className='text-secondary'>{data.description}</p>
           <Link href={"#"}>
             <div className="flex justify-center items-center w-[190px] py-2 px-6 bg-highlight rounded-md mt-[2rem]">
-              <p>{data.buttonText}</p>
+              <p className='font-semibold'>{data.buttonText}</p>
               <ArrowDownTrayIcon className='ml-1 w-5'/>
             </div>
           </Link>

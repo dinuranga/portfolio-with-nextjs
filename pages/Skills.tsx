@@ -17,9 +17,11 @@ const skills = [
 const Skills = () => {
   return (
     <div className='bg-slate-950 pt-[4rem] md:pt-[6rem] pb-[5rem] md:pb-[8rem]'>
-      <p className="heading">
-        MY <span className='text-highlight'>Skills</span>
-      </p>
+      <div className="w-[80%] mx-auto">
+        <p className="heading text-center">
+          MY <span className='text-highlight'>Skills</span>
+        </p>
+      </div>
       <div className='w-full flex justify-center mt-[3rem] md:mt-[4rem]'>
         <div className='hidden md:grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 gap-4'>
           {skills.map(item => (

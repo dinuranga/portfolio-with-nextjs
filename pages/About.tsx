@@ -29,7 +29,7 @@ function About() {
           <div className="left-[15rem] bottom-6 bg-[url('/img/profile.jpg')] w-[200px] h-[250px] md:w-[250px] md:h-[300px] lg:w-[320px] lg:h-[360px] bg-cover object-contain rounded-xl z-[100]"></div>
         </div>
         
-        <div className="absolute top-[2.5rem] right-[3rem]">
+        <div className="absolute top-[2.5rem] right-[2.5rem]">
           <div className="bg-[url('/img/profile.jpg')] md:hidden w-[100px] h-[100px] bg-slate-800 rounded-full object-contain bg-cover"></div>
         </div>
       </div>

@@ -1,7 +1,7 @@
-import Particle from './Particle'
-import React from 'react'
-import TextEffect from './TextEffect'
-import HoverGlowButton from './HoverGlowButton'
+import Particle from './Particle';
+import React from 'react';
+import TextEffect from './TextEffect';
+import HoverGlowButton from './HoverGlowButton';
 
 const Hero = () => {
   return (

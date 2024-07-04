@@ -1,4 +1,4 @@
-import { Bars3Icon } from '@heroicons/react/16/solid';
+import { ArrowRightIcon, Bars3BottomRightIcon } from '@heroicons/react/16/solid';
 import React, {useState, useEffect} from 'react';
 import Logo from './Logo';
 import Link from 'next/link';
@@ -18,6 +18,10 @@ export const links = [
   },
   {
     text : "Skills",
+    link : "#",
+  },
+  {
+    text : "Contact Me",
     link : "#",
   }
 ];
@@ -62,10 +66,16 @@ const Navbar = ({openNav}: Props) => {
           }
         </div>
         <div>
-            <button className='px-4 py-2 bg-gradient-to-r from-[#03ea7a] to-[#44BCFF] rounded-lg hidden md:block font-semibold text-slate-900'>Contact Me</button>
+            <Link href="https://github.com/dinuranga" target='_blank'>
+              <button className='px-4 py-2 bg-gradient-to-r from-[#03ea7a] to-[#44BCFF] rounded-lg hidden lg:block font-semibold text-slate-900 lg:flex hover:scale-[97%] transition duration-150 ease-in-out'>Visit My GitHub
+
+              <ArrowRightIcon className='ml-1 w-6 hidden lg:flex'/>  
+              </button>
+            </Link>
             <div onClick={openNav}>
-                <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-white ' />
+                <Bars3BottomRightIcon className='w-[2rem] lg:hidden h-[2rem] cursor-pointer text-white ' />
             </div>
+            
         </div>
       </div>
     </nav>

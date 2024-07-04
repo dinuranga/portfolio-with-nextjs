@@ -2,13 +2,15 @@ import Particle from './Particle';
 import React from 'react';
 import TextEffect from './TextEffect';
 import HoverGlowButton from './HoverGlowButton';
+import Link from 'next/link';
+import { ChevronRightIcon } from '@heroicons/react/16/solid';
 
 const Hero = () => {
   return (
     <div className='min-h-[88vh] h-[600px] z-[1000] mt-[12vh]'>
       <Particle/>
       <div className="w-[80%] grid grid-cols-1 mx-auto lg:grid-cols-2 gap-[3rem] h-[100%] items-end relative z-[10000]">
-        <div className="flex flex-col items-center lg:items-start justify-center h-[100%] lg:justify-center gap-6">
+        <div className="flex flex-col items-center lg:items-start justify-end h-[100%] lg:justify-center gap-6">
             <div className="text-center lg:text-left">
               <h1 className="text-4xl lg:text-6xl mb-2 text-white font-normal">
                   Hi, I'm
@@ -22,6 +24,12 @@ const Hero = () => {
               </div>
             </div>
             <HoverGlowButton href="/" text="Download CV" className='py-3 px-8 bg-gradient-to-r from-[#03ea7a]  to-[#44BCFF] font-semibold'/>
+            <Link href="http://linkedin.com/in/dinuranga" target="_blank">
+              <div className="flex hover:text-cyan-400 text-secondary">
+                <p className="">LinkedIn Profile</p>
+                <ChevronRightIcon className='ml-1 w-6'/>
+              </div>
+            </Link>
         </div>
         <div className="flex items-start lg:items-center justify-center lg:justify-end h-[100%]">
             <div className="relative rounded-full">

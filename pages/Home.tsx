@@ -1,4 +1,4 @@
-import React,{ useState } from 'react'
+import React,{ useState } from 'react';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import NavbarMobile from '@/components/NavbarMobile';
@@ -20,4 +20,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;

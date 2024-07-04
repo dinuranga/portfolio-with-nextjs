@@ -1,5 +1,6 @@
-import React from 'react'
-import CircularText from './CircularText'
+import React from 'react';
+import CircularText from './CircularText';
+import Image from 'next/image'
 
 function Logo() {
   return (
@@ -7,9 +8,9 @@ function Logo() {
         <div className="absolute">
             <CircularText text="MALEESHA DINURANGA"/>
         </div>
-        <img src="/img/logo.svg" alt="" className='w-[22px]'></img>
+        <Image src="/img/logo.svg" alt="" width={22} height={22}></Image>
     </div>
   )
 }
 
-export default Logo
+export default Logo;

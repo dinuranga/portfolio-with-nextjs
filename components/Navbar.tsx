@@ -1,4 +1,4 @@
-import { ArrowRightIcon, Bars3Icon } from '@heroicons/react/16/solid';
+import { ArrowRightIcon, Bars3BottomRightIcon } from '@heroicons/react/16/solid';
 import React, {useState, useEffect} from 'react';
 import Logo from './Logo';
 import Link from 'next/link';
@@ -73,7 +73,7 @@ const Navbar = ({openNav}: Props) => {
               </button>
             </Link>
             <div onClick={openNav}>
-                <Bars3Icon className='w-[2rem] lg:hidden h-[2rem] cursor-pointer text-white ' />
+                <Bars3BottomRightIcon className='w-[2rem] lg:hidden h-[2rem] cursor-pointer text-white ' />
             </div>
             
         </div>

@@ -14,6 +14,9 @@
     .heading{
       @apply text-left text-light text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase
     }
+    .heading-normal{
+      @apply text-left text-light text-[28px] sm:text-[33px] md:text-[45px] font-bold
+    }
 }
 
 @keyframes spin {

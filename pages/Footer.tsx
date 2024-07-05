@@ -49,7 +49,7 @@ function Footer() {
       </div>
         <div className="w-full  pt-[1rem] pb-[1rem] bg-slate-950">
             <div className="w-[80%] mx-auto"></div>
-            <p className="text-slate-400 text-center text-xs md:text-[1rem]">Crafted by Maleesah Dinuranga. &copy;2024</p>
+            <p className="text-slate-400 text-center text-xs md:text-[1rem]">Crafted by Maleesha Dinuranga. &copy;2024</p>
         </div>
     </footer>
   );

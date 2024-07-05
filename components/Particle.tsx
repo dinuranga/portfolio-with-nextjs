@@ -30,7 +30,7 @@ const Particle = () => {
       //     value: "#0d47a1",
       //   },
       // },
-      fpsLimit: 120,
+      fpsLimit: 60,
       interactivity: {
         events: {
           onClick: {
@@ -44,7 +44,7 @@ const Particle = () => {
         },
         modes: {
           push: {
-            quantity: 4,
+            quantity: 2,
           },
           repulse: {
             distance: 200,

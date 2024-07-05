@@ -9,20 +9,24 @@ interface Props {
 
 export const links = [
   {
-    text : "About",
-    link : "#",
+    text : "Home",
+    link : "#home",
   },
   {
-    text : "Projects",
-    link : "#",
+    text : "About",
+    link : "#about",
   },
   {
     text : "Skills",
-    link : "#",
+    link : "#skills",
+  },
+  {
+    text : "Projects",
+    link : "#projects",
   },
   {
     text : "Contact Me",
-    link : "#",
+    link : "#contact",
   }
 ];
 
@@ -53,7 +57,7 @@ const Navbar = ({openNav}: Props) => {
             <Logo/>
           </Link>
         </div>
-        <div className='flex gap-8'>
+        <div className='hidden lg:flex gap-8'>
           {
             links.map((data, index) => (
               <a 
@@ -67,7 +71,7 @@ const Navbar = ({openNav}: Props) => {
         </div>
         <div>
             <Link href="https://github.com/dinuranga" target='_blank'>
-              <button className='px-4 py-2 bg-gradient-to-r from-[#03ea7a] to-[#44BCFF] rounded-lg hidden lg:block font-semibold text-slate-900 lg:flex hover:scale-[97%] transition duration-150 ease-in-out'>Visit My GitHub
+              <button className='px-4 py-2 bg-gradient-to-r from-[#03ea7a] to-[#44BCFF] rounded-lg hidden font-semibold text-slate-900 lg:flex hover:scale-[97%] transition duration-150 ease-in-out'>Visit My GitHub
 
               <ArrowRightIcon className='ml-1 w-6 hidden lg:flex'/>  
               </button>

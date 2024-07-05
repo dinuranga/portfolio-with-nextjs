@@ -10,7 +10,7 @@ function Home() {
   const closeNav = () => setNav(false);
 
   return (
-    <div className=''>
+    <div id="home" className='scroll-mt-[12vh]'>
         {/* Navbar */}
         <NavbarMobile nav={nav} closeNav={closeNav}/>
         <Navbar openNav={openNav}/>

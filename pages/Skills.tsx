@@ -16,7 +16,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className='bg-slate-950 pt-[4rem] md:pt-[6rem] pb-[5rem] md:pb-[8rem]'>
+    <div id="skills" className='scroll-mt-[12vh] bg-slate-950 pt-[4rem] md:pt-[6rem] pb-[5rem] md:pb-[8rem]'>
       <div className="w-[80%] mx-auto">
         <p className="heading text-center">
           MY <span className='text-highlight'>Skills</span>

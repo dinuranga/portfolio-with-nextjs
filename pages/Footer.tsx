@@ -35,7 +35,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="rounded-md bg-slate-950 py-[1rem] px-[1rem]">
+        <div id="footer" className="scroll-mt-[12vh] rounded-md bg-slate-950 py-[1rem] px-[1rem]">
           <div className="flex space-x-4">
             <div className="w-[45px] h-[45px]">
               <MapPinIcon className="h-12 w-12 text-slate-400 hover:text-highlight" />

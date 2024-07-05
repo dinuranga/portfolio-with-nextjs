@@ -15,7 +15,7 @@ const logos = [
         url: "/img/tailwindcss.svg"
     },
     {
-        url: "/img/vercel.svg"
+        url: "/img/vercellogo.svg"
     },
 ]
 

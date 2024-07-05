@@ -2,33 +2,12 @@ import { ArrowRightIcon, Bars3BottomRightIcon } from '@heroicons/react/16/solid'
 import React, {useState, useEffect} from 'react';
 import Logo from './Logo';
 import Link from 'next/link';
+import {links} from '@/pages/data'
 
 interface Props {
     openNav: () => void;
 }
 
-export const links = [
-  {
-    text : "Home",
-    link : "#home",
-  },
-  {
-    text : "About",
-    link : "#about",
-  },
-  {
-    text : "Skills",
-    link : "#skills",
-  },
-  {
-    text : "Projects",
-    link : "#projects",
-  },
-  {
-    text : "Contact Me",
-    link : "#contact",
-  }
-];
 
 const Navbar = ({openNav}: Props) => {
 

@@ -1,27 +1,7 @@
 import ProjectCard from '@/components/ProjectCard';
 import Link from 'next/link';
 import React from 'react';
-
-const projects = [
-    {
-        title: "Personal Portfolio with Next.js",
-        imageUrl: "/img/image-1.jpg",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic assumenda labore dolorem ad aliquam debitis exercitationem.",
-        demoUrl: "https://dinuranga.vercel.app"
-    },
-    {
-        title: "Blood Bank Management System",
-        imageUrl: "/img/image-2.jpg",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic assumenda labore dolorem ad aliquam debitis exercitationem.",
-        demoUrl: "https://bbms-client.vercel.app"
-    },
-    {
-        title: "Tesla Website with React.js",
-        imageUrl: "/img/image-3.jpg",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic assumenda labore dolorem ad aliquam debitis exercitationem.",
-        demoUrl: "https://teslasite.netlify.app"
-    }
-];
+import {projects} from './data'
 
 const Projects = () => {
     return (

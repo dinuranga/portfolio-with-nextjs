@@ -1,6 +1,6 @@
 import React from 'react';
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/16/solid';
-import {contact} from "./data";
+import {contact} from "../data";
 import LogoList from '@/components/LogoList';
 
 function Footer() {

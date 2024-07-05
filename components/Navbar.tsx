@@ -2,7 +2,7 @@ import { ArrowRightIcon, Bars3BottomRightIcon } from '@heroicons/react/16/solid'
 import React, {useState, useEffect} from 'react';
 import Logo from './Logo';
 import Link from 'next/link';
-import {links} from '@/pages/data'
+import {links} from '../data'
 
 interface Props {
     openNav: () => void;

@@ -1,7 +1,7 @@
 import ProjectCard from '@/components/ProjectCard';
 import Link from 'next/link';
 import React from 'react';
-import {projects} from './data'
+import {projects} from '../data'
 
 const Projects = () => {
     return (

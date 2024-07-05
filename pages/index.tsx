@@ -7,6 +7,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 const Index = () => {
+
   return (
     <div className='overflow-x-hidden'>
       <Home/>

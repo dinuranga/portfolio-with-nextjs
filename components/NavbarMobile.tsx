@@ -16,12 +16,14 @@ const NavbarMobile = ({nav,closeNav}: Props) => {
             <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center">
                 {
                     links.map((data, index) => (
-                        <a 
-                            href={data.link} 
-                            className='nav-link-mobile'
-                            key={index}>
-                            {data.text}
-                        </a>
+                        <div onClick={closeNav}>
+                            <a 
+                                href={data.link} 
+                                className='nav-link-mobile'
+                                key={index}>
+                                {data.text}
+                            </a>
+                        </div>
                     ))
                 }
             </div>

@@ -10,7 +10,7 @@ const data = {
 
 function About() {
   return (
-    <div id="#about" className='relative pb-[3rem] pt-[3rem] lg:pb-[8rem] md:pt-[8rem] bg-slate-900'>
+    <div id="about" className='scroll-mt-[12vh] relative pb-[3rem] pt-[3rem] lg:pb-[8rem] md:pt-[8rem] bg-slate-900'>
       <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
         <div>
           <h1 className='text-[20px] font-bold uppercase text-highlight md-[1rem] mb-[1rem]'>About Me</h1>

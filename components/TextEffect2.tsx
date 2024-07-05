@@ -4,9 +4,11 @@ const TextEffect2 = () => {
   return (
     <TypeAnimation
       sequence={[
-        'I could be the next talent you are looking for.',
+        "Consider me the talent you've been searching for..",
         1000,
-        'Contact Me Today !',
+        'I am looking for an internship.',
+        1000,
+        "I could be the perfect fit for your team !",
         1000
       ]}
       wrapper="span"

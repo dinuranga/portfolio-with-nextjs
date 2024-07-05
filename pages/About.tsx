@@ -1,12 +1,7 @@
 import { ArrowDownTrayIcon } from '@heroicons/react/16/solid';
 import Link from 'next/link';
 import React from 'react';
-
-const data = {
-  heading : "who am I ?",
-  description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum voluptates quisquam, blanditiis eius molestias debitis laboriosam aspernatur.Rerum voluptates quisquam, blanditiis eius.",
-  buttonText : "Download CV",
-}
+import {about} from '../data';
 
 function About() {
   return (
@@ -14,12 +9,12 @@ function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
         <div>
           <h1 className='text-[20px] font-bold uppercase text-highlight md-[1rem] mb-[1rem]'>About Me</h1>
-          <h2 className="text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[1rem] font-bold text-white">{data.heading}</h2>
+          <h2 className="text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[1rem] font-bold text-white">{about.heading}</h2>
           <div className='w-[6rem] rounded-sm h-[0.5rem] mb-[2rem] bg-slate-800'></div>
-          <p className='text-secondary'>{data.description}</p>
+          <p className='text-secondary'>{about.description}</p>
           <Link href={"#"}>
             <div className="flex justify-center items-center w-[190px] py-2 px-6 bg-highlight rounded-md mt-[2rem]">
-              <p className='font-semibold'>{data.buttonText}</p>
+              <p className='font-semibold'>{about.buttonText}</p>
               <ArrowDownTrayIcon className='ml-1 w-5'/>
             </div>
           </Link>

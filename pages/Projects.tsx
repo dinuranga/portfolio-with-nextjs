@@ -19,11 +19,9 @@ const Projects = () => {
                 data-aos-duration="2000" className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
                 {   
                     projects.map((data, index) => (
-                        <Link href={data.demoUrl} target='_blank' key={index}>
-                            <div className='cursor-pointer'>
-                                <ProjectCard imageUrl={data.imageUrl} title={data.title} description={data.description}/>
-                            </div>
-                        </Link>
+                        <div key={index}>
+                            <ProjectCard demoUrl={data.demoUrl} imageUrl={data.imageUrl} title={data.title} description={data.description} repository={data.repository}/>
+                        </div>
                     ))
                 }
             </div>

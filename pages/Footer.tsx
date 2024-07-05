@@ -1,11 +1,6 @@
 import React from 'react';
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/16/solid';
-
-const data = {
-    phone: "+9470 361 4497",
-    email: "contact.dinuranga@gmail.com",
-    address: "K43, Panakoora, Anhettigama, Deraniyagala"
-}
+import {contact} from "./data";
 
 function Footer() {
   return (
@@ -18,7 +13,7 @@ function Footer() {
             </div>
             <div>
               <h1 className="text-lg font-semibold">Phone</h1>
-              <a href={`tel:${data.phone}`} className='text-highlight text-2xl font-semibold lg:text-lg'>{data.phone}</a>
+              <a href={`tel:${contact.phone}`} className='text-highlight text-2xl font-semibold lg:text-lg'>{contact.phone}</a>
             </div>
           </div>
         </div>
@@ -30,7 +25,7 @@ function Footer() {
             </div>
             <div>
               <h1 className="text-lg font-semibold">Email</h1>
-              <a href={`mailto:${data.email}`} className='text-secondary text-sm lg:text-lg'>{data.email}</a>
+              <a href={`mailto:${contact.email}`} className='text-secondary text-sm lg:text-lg'>{contact.email}</a>
             </div>
           </div>
         </div>
@@ -42,7 +37,7 @@ function Footer() {
             </div>
             <div>
               <h1 className="text-lg font-semibold">Address</h1>
-              <p className='text-secondary text-sm lg:text-lg'>{data.address}</p>
+              <p className='text-secondary text-sm lg:text-lg'>{contact.address}</p>
             </div>
           </div>
         </div>

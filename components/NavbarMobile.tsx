@@ -1,6 +1,6 @@
 import React from 'react';
 import { XMarkIcon } from '@heroicons/react/16/solid';
-import {links} from './Navbar';
+import {links} from '@/pages/data';
 
 interface Props{
     nav: boolean;
@@ -14,6 +14,8 @@ const NavbarMobile = ({nav,closeNav}: Props) => {
     return (
         <div className={`fixed ${navAnimation} transform transistion-all duration-300 top-0 bottom-0 left-0 right-0 bg-dark text-white z-[1000000]`}>
             <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center">
+                
+                <div className='flex flex-col gap-[2rem]'>
                 {
                     links.map((data, index) => (
                         <div onClick={closeNav} key={index}>
@@ -26,6 +28,9 @@ const NavbarMobile = ({nav,closeNav}: Props) => {
                         </div>
                     ))
                 }
+                </div>
+                
+                
             </div>
             <div onClick={closeNav} className="absolute cursor-pointer top-[3rem] right-[2.8rem] w-[2rem] h-[2rem] text-white">
                 <XMarkIcon/>

@@ -31,7 +31,7 @@ function Footer() {
           </div>
         </div>
 
-        <div id="footer" className="scroll-mt-[12vh] rounded-md bg-slate-950 py-[1rem] px-[1rem]">
+        {/* <div id="footer" className="scroll-mt-[12vh] rounded-md bg-slate-950 py-[1rem] px-[1rem]">
           <div className="flex space-x-4">
             <div className="w-[45px] h-[45px]">
               <MapPinIcon className="h-12 w-12 text-slate-400 hover:text-highlight" />
@@ -41,7 +41,7 @@ function Footer() {
               <p className='text-secondary text-sm lg:text-lg'>{contact.address}</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
         <div className="w-full  pt-[2rem] pb-[2rem] bg-slate-950">
             <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center opacity-75">

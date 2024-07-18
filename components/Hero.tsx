@@ -23,7 +23,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <HoverGlowButton href="/" text="Download CV" className='py-3 px-8 bg-gradient-to-r from-[#03ea7a]  to-[#44BCFF] font-semibold'/>
+            <HoverGlowButton href="/pdf/CV_Maleesha_Dinuranga.pdf" text="Download CV" className='py-3 px-8 bg-gradient-to-r from-[#03ea7a]  to-[#44BCFF] font-semibold'/>
             <Link href="http://linkedin.com/in/dinuranga" target="_blank">
               <div className="flex hover:text-cyan-400 text-secondary">
                 <p className="">LinkedIn Profile</p>
